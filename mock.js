@@ -29,5 +29,9 @@
 // // }
 // // z()
 // // console.log(z())1
-let a;
-console.log(a);
+let a=[10,20,30,40];
+console.log(...a);
+a.map((z)=>
+{
+    console.log(z)
+})
